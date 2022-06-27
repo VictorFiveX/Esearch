@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade"
+    tools:context=".Activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Activity.FormLogin">
+
+
+        <ImageView
+
+            android:id="@+id/logo"
+            android:layout_width="258dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/title_cadastre_se"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:text="Vamos economizar ?!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:fontFamily="@font/poppins" />
+
+        <androidx.cardview.widget.CardView
+
+
+            android:id="@+id/ContainerComponets"
+            style="@style/ContainerComponets"
+            android:layout_height="231dp"
+            app:cardBackgroundColor="@color/white">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/email"
+                    style="@style/edit_text"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/borda"
+                    android:drawableRight="@drawable/ic_email"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+
+                    android:id="@+id/senha"
+                    style="@style/edit_text"
+
+                    android:background="@drawable/borda"
+                    android:drawableRight="@drawable/ic_lock"
+                    android:hint="senha"
+                    android:inputType="numberPassword"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#6e6e70"
+                        android:text="Nao tem conta ? "
+                        android:textSize="13sp"
+                        tools:fontFamily="@font/poppins" />
+
+                    <TextView
+                        android:id="@+id/sing_in"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:text="Cadastre-se"
+                        android:textColor="#7A5800"
+                        android:textSize="13sp"
+                        tools:fontFamily="@font/poppins">
+
+                    </TextView>
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/forgotpassowrd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Esqueceu a senha ?"
+                    android:textAlignment="center"
+                    android:textColor="#EBFF5722"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEntrar"
+            style="@style/button"
+            android:text="entrar"
+            android:textAllCaps="false" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:indeterminateTint="@color/white"
+            android:visibility="invisible"></ProgressBar>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

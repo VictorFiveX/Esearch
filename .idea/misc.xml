@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable-v24/button.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable-v24/card_background.xml" value="0.195" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable-v24/yellow_bar.xml" value="0.1435" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/background_category.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/borda.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/degrade.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/ellipse_1.xml" value="0.1315" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/ic_arrow.xml" value="0.3665" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/drawable/list_background.xml" value="0.209" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_forgot.xml" value="0.3515625" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_lista.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_show_detail.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/activity_start.xml" value="0.15" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/alertdialog.xml" value="0.365625" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/fragment_add.xml" value="0.365625" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/fragment_list.xml" value="0.2897959183673469" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/slider_item.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/viewholder_cart.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/viewholder_category.xml" value="0.365625" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/viewholder_itens.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/layout/viewholder_lista.xml" value="0.25" />
+        <entry key="..\:/Users/victo/Desktop/TCC_completo/App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3651041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

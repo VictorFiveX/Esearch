@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade"
+    tools:context=".Activity.CadastroActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degrade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/voltar1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+
+
+                android:src="@drawable/ic_arrow"
+
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Welcome to Esearch!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:fontFamily="@font/poppins_bold" />
+
+            <ImageView
+                android:layout_width="137dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+
+            <TextView
+                android:id="@+id/title_cadastrese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Vamos economizar"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:fontFamily="@font/poppins" />
+            <TextView
+                android:id="@+id/title_cadastre_se"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Cadastre-se"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:fontFamily="@font/poppins" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ContainerComponets"
+                style="@style/ContainerComponets"
+                android:layout_width="370dp"
+                android:layout_height="340dp"
+                android:layout_gravity="center"
+
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editnome"
+                        style="@style/edit_text"
+                        android:layout_gravity="center"
+                        android:background="@drawable/borda"
+                        android:drawableRight="@drawable/ic_person"
+                        android:hint="Enter your full name"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        style="@style/edit_text"
+                        android:layout_gravity="center"
+                        android:background="@drawable/borda"
+                        android:drawableRight="@drawable/ic_email"
+                        android:hint="Enter your email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                    <EditText
+                        android:id="@+id/senha"
+                        style="@style/edit_text"
+                        android:layout_gravity="center"
+                        android:background="@drawable/borda"
+                        android:drawableRight="@drawable/ic_lock"
+                        android:hint="Enter password"
+                        android:inputType="numberPassword"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                    <EditText
+                        android:id="@+id/repsenha"
+                        style="@style/edit_text"
+                        android:layout_gravity="center"
+                        android:background="@drawable/borda"
+                        android:drawableRight="@drawable/ic_lock"
+                        android:hint="Confirm password"
+                        android:inputType="numberPassword"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCadastrar"
+                style="@style/button"
+                android:layout_gravity="center"
+                android:text="Cadastrar"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
